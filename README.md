@@ -1,5 +1,7 @@
 # InseguirdadNL
 
+# https://inseguridad-nl-luislugo.streamlit.app/
+
 
 Este repositorio tiene como objetivo visualizar la inseguridad en el estado de Nuevo León. A través de esta herramienta, se puede analizar:
 
@@ -23,3 +25,5 @@ En el futuro, si se desea automatizar la obtención de datos, se utilizará la A
 3. **Integrar los Datos en la Aplicación:** Los datos obtenidos se integrarán a la aplicación para su visualización y análisis en tiempo real.
 
 Con esta automatización, se garantizará que la información sobre la inseguridad en Nuevo León esté siempre actualizada y disponible para su consulta.
+
+
