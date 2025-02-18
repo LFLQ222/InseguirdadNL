@@ -149,8 +149,8 @@ def main():
         format_func=lambda x: location_dict[x]
     )
     
-    # Aqui creamos un piechart para poder ver como se manifiesta la inseguridad en cada lugar
-    location_data = df[selected_location].value_counts().reset_index()
+    #Aqui ver como se manifiesta la inseguridad en cada lugar de NL
+    location_data = gender_df[selected_location].value_counts().reset_index()
     location_data.columns = ['Respuesta', 'Cantidad']
     
     location_data['Respuesta'] = location_data['Respuesta'].map(response_dict)
@@ -159,7 +159,7 @@ def main():
         location_data, 
         values='Cantidad', 
         names='Respuesta',
-        title=f'Percepción de Seguridad: {location_dict[selected_location]}'
+        title=f'Percepción de Seguridad: {location_dict[selected_location]} - {gender_label}'
     )
     st.plotly_chart(fig)
     
