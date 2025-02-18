@@ -7,6 +7,13 @@ Este repositorio tiene como objetivo visualizar la inseguridad en el estado de N
 - Qué lugares la gente considera más inseguros.
 - Cómo el rol de género influye en la percepción de la inseguridad.
 
+## Instalación
+
+Para ejecutar este proyecto, primero instala las librerías necesarias con el siguiente comando:
+
+```sh
+pip install streamlit pandas plotly
+```
 ## Automatización de la Base de Datos
 
 En el futuro, si se desea automatizar la obtención de datos, se utilizará la API de ENSU (Encuesta Nacional de Seguridad Pública Urbana) proporcionada por el INEGI. Para ello, se seguirá el siguiente procedimiento:
